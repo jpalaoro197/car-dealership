@@ -19,6 +19,11 @@ namespace Dealership.Models
       _miles = miles;
     }
 
+    public static string MakeSound(string sound)
+    {
+      return "this car makes a " + sound + " sound";
+    }
+
     public string GetMakeModel()
     {
       return _makeModel;
